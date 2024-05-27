@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./resume-web/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>My Resume</h1>
-    <p>This is a sample HTML page.</p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="./resume-web/education.html">Education</a></li>
+            <li><a href="./resume-web/work.html">Work</a></li>
+            <li><a href="./resume-web/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section-1">
+            <div class="container">
+                <div class="item item-1">
+                    <img src="./PIC/avatar.png " alt="avatar-picture" class="picture">
+                </div>
+                <div class="item">
+                    <h1>Watcharaphol Dangpiem</h1>
+                    <h2>Full-Stack Developer</h2>
+                    <p>A seasoned Full Stack Developer with 6 years of experience driving performance, reliability
+                        and
+                        scalability of customer-facing web applications. Effectively led full stack development
+                        resulting in
+                        25% faster loading times and improved user experience. Deployed applications to multiple
+                        cloud-based
+                        production environments, set up and maintained a relational database system, integrated
+                        third-party
+                        services and created web-based CMSs resulting in quicker information and feature updates.</p>
+                </div>
+            </div>
+        </section>
+        <div class="cloud-pic"></div>
+        <section class="section-2">
+            <br>
+            <h2>Personal information</h2>
+            <div class="container s2c1">
+                <div class="item">
+                    <p>
+                    <h4>E-mail : </h4> CreateResume@gmail.com</p>
+                    <p>
+                    <h4>Phone : </h4> 123-456-7890</p>
+                    <p>
+                    <h4>Linkin : </h4> linkedin.com/in/create-resume</p>
+                </div>
+                <div class="item">
+                    <p>
+                    <h4>Address : </h4> Bankkok Thailand</p>
+                    <p>
+                    <h4>Marital status : </h4> Single</p>
+                    <p>
+                    <h4>Vehecel license : </h4> Have (both motocycle and car)</p>
+                </div>
+            </div>
+
+            <br>
+            <h2>Skills & Competencies</h2>
+            <div class="container s2c2">
+                <div class="item">
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>React/Angular/Vue</li>
+                        <li>Node.js</li>
+                        <li>SQL/NoSQL</li>
+                        <li>RESTful APIs</li>
+                        <li>Cloud Technologies (AWS, GCP, etc.)</li>
+                        <li>DevOps/CI/CD</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul>
+                        <li>Git/Version Control</li>
+                        <li>Product Design</li>
+                        <li>Mobile Application Development</li>
+                        <li>Unit Testing/Integration Testing</li>
+                        <li>Security/Data Protection</li>
+                        <li>Performance Optimization</li>
+                        <li>Agile Project Management</li>
+                        <li>Object-oriented Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
